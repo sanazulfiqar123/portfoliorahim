@@ -1,0 +1,559 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #28282B;
+}
+
+.navbar
+{
+    background-color: transparent !important;
+}
+
+.logo
+{
+    color: white !important;
+    font-size: 40px !important;
+}
+
+.logo:hover
+{
+    color: #04d9ff !important;
+    text-shadow: 1px 1px 15px #04d9ff ;
+
+}
+
+.nav-link:hover
+{
+   color: #04d9ff !important;
+}
+
+.navbar-nav
+{
+   margin-left: 40%;
+}
+
+.acolor
+{
+    font-size: 18px;
+    margin-left: 30px;
+    color: white !important;
+}
+
+.fix
+{
+  color: #04d9ff !important;
+  font-weight: 600;
+}
+
+.head1
+{
+    margin-top: 20%;
+    color: white;
+    font-size: 30px;
+}
+
+.head2
+{
+    color: white; 
+    font-size: 60px;
+    color: #04d9ff;
+}
+
+.para1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.highlight
+{
+    color: #04d9ff;
+    text-shadow: 1px 1px 15px #04d9ff  ;
+}
+
+.para2
+{
+    color: white;
+    font-size: 18px;
+}
+
+.a1
+{
+
+    padding: 20px;
+
+} 
+
+.navbar-toggler
+{
+    background-color: #04d9ff;
+    box-shadow: 1px 1px 30px #04d9ff ;
+    
+}
+
+
+.a2 img
+{
+    margin: 18%;
+    position: relative;
+    box-shadow: 1px 1px 30px #04d9ff ;
+    border-radius: 100%;
+    background-color: #04d9ff;
+    animation: anim 1s linear  infinite alternate-reverse;
+    transition: 4s;
+}
+
+.a3 img
+{
+   margin-top: 100px;
+   margin-left: 170px;
+   box-shadow: 1px 1px 20px #04d9ff ;
+    border-radius: 100%;
+}
+
+.a4
+{
+    margin-right: 120px;
+    margin-top: -60px;
+    padding: 10px;
+}
+
+.card-img-top
+{
+    width: 120px;
+    margin: auto
+}
+
+.serimg
+{
+    width: 230px;
+}
+
+.head3
+{
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.back
+{
+    background-color:#38383c;
+    max-width: 90%;
+}
+
+.card
+{
+    float: left;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 50px;
+    background-color:#38383c !important;
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: 3px solid #04d9ff !important ;
+
+}
+
+.card:hover
+{
+    transform: scale(1.04) !important;
+    box-shadow: 1px 1px 30px #04d9ff ;
+    
+
+}
+
+.project
+{
+   width: 400px;
+   height: 260px;
+   float: left;
+   margin:15px;
+   overflow: hidden !important;
+   border: 3px solid  #04d9ff;
+   border-radius: 5px;
+
+
+}
+
+.box
+{
+    width: 400px;
+    height: 200px;
+    background-color: #04d9ff;
+    left: 0;
+    bottom: 0;
+    opacity:0.6;
+    position: relative;
+    transition: 1s;
+    text-align: center;
+    padding-top: 40px;
+    color:#28282B;
+    text-transform: capitalize;
+    font-weight: 800;
+  
+
+    
+}
+
+.project img:hover + .box
+{
+    left: 0% !important;
+    bottom: 50% !important;
+    display: block;
+    
+}
+
+.contact
+{
+    text-align: center;
+}
+
+.contact input
+{
+    padding: 12px;
+    width: 320px;
+    margin: 20px;
+    background-color: #38383c;
+    outline: none;
+    border:  2px solid #04d9ff ;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px #04d9ff ;
+}
+
+.contact textarea
+{
+    width: 50%;
+    height: 40vh;
+    background-color: #38383c;
+    border:  2px solid #04d9ff ;
+    box-shadow: 1px 1px 7px #04d9ff ;
+    outline: none;
+
+}
+
+.contact1
+{
+    margin-top: 10%;
+}
+
+::placeholder
+{
+    color:#4a4a4b;
+    font-weight: 700;
+}
+
+
+footer p
+{    margin-top: 15px;
+    font-size: 20px !important;
+}
+
+.quick
+{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #04d9ff !important;
+    box-shadow: 1px 1px 7px #04d9ff !important ;
+    position:fixed;
+    bottom: 40px;    
+    right: 100px;
+    text-align: center;
+    background-image: url(white-down-arrow-png-2.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+
+
+}
+
+.quick:hover
+{
+    box-shadow: 1px 1px 15px #04d9ff !important ;
+}
+
+@keyframes anim
+
+{
+
+0%
+{
+
+    top:10px;
+}
+25%
+{
+
+    top:15px;
+}
+50%
+{
+
+    top:20px;
+}
+75%
+{
+
+    top:25px;
+}
+100%
+{
+
+    top:30px;
+}
+
+
+
+
+
+
+
+}
+
+.btn
+{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #04d9ff;
+    box-shadow: 1px 1px 50px #04d9ff ;
+    margin: 25px;
+}
+
+.btn:hover
+{
+    box-shadow: 1px 1px 60px #04d9ff !important ;
+}
+
+
+@media screen and (max-width: 984px)
+
+{
+
+
+    .navbar-collapse ul
+    {
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+
+    .a1
+    {
+        display:contents;
+    
+    }
+
+    .a2
+    {
+        display:contents;
+    
+    }
+    .a3
+    {
+        display:contents;
+    
+    }
+
+    .a3 img
+    {
+        display: block;
+        margin:5rem;
+        width: 50%;
+    }
+
+    .a4
+    {
+        display:contents;
+        margin-top: -100px;
+    
+    }
+
+    .head1
+    {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+
+    .head2
+    {
+        font-size: 2.7rem;
+        padding: 10px;
+    }
+
+    .para1
+    {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    .para2
+    {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .btn
+    {
+        width: auto;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    .head3
+    {
+        font-size: 1.3rem;
+        padding-top: 20px;
+            
+    }
+
+    .card
+    {
+        width: 18rem !important;
+        height: 19rem !important;
+        margin-top: 20px;
+    }
+
+    .project
+    {
+        width: 19rem !important;
+        height: 12rem !important;
+    }
+
+    .box
+    {
+        margin-top:5px ;
+        text-align: center;
+        display: none;
+    }
+
+    .project img:hover + .box
+{
+    left: 0% !important;
+    bottom: 0% !important;
+    display: none;
+    
+}
+
+.col-5
+{
+    display:contents;
+}
+
+textarea
+{
+    width: 17rem !important;
+    height: 14rem !important;
+}
+
+.quick
+{
+    display: none;
+}
+    
+.a3 img
+{
+     width:18rem;
+     margin: auto;
+     margin-top: 20px !important;
+}
+
+.row
+{
+    display: block;
+}
+
+.card
+{
+    display:flex;
+} 
+
+.project1 div
+{
+    display:contents;
+}
+
+.project img
+{
+    width:30rem !important;
+    padding-top: 20px;
+   
+}
+
+.container3
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project
+{
+    border: 4px solid #04d9ff !important;
+}
+
+
+}
+
+@media screen and (max-width: 820px)
+{
+
+.a3 img
+{
+     width:17rem;
+     margin: auto;
+     margin-top: 20px !important;
+}
+
+.row
+{
+    display: block;
+}
+
+.card
+{
+    display:flex;
+} 
+
+.project1 div
+{
+    display:contents;
+}
+
+.project img
+{
+    width:22rem !important;
+    padding-top: 20px;
+   
+}
+
+.container3
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project
+{
+    border: 4px solid #04d9ff !important;
+}
+
+
+
+
+
+
+
+}
+
+
